@@ -160,7 +160,7 @@ export default {
     .date{
         font-family: "Aftika Bold",sans-serif;
         color: 	rgb(181, 202, 136);
-        margin-top: 4px;
+        margin-top: -2px;
         font-size: 27px;
         margin-right: 20px;
     }
