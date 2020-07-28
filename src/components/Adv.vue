@@ -187,8 +187,8 @@ export default {
         width: 25px;
         height: 25px;
         position: absolute;
-        top: -50px;
-        right:35px;
+        top: -14px;
+        right:89px;
     }
     .leaf_right{
         width: 90px;
