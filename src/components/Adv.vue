@@ -149,7 +149,7 @@ export default {
         color: 	rgb(92, 101, 69);
         font-size: 19px;
         letter-spacing: 1.6px;
-        margin-top: 40px;
+        margin-top: 20px;
         margin-right: 14px;
         font-weight: 100;
     }
@@ -165,7 +165,7 @@ export default {
         color: 	rgb(92, 101, 69);
         font-size: 14.2px;
         letter-spacing: 0.4px;
-        margin-top: 23px;
+        margin-top: 10px;
         margin-right: 19px;
     }
     #email{
@@ -173,7 +173,7 @@ export default {
         color: 	rgb(92, 101, 69);
         font-size: 25px;
         margin-right: 19px;
-        margin-top: 23px;
+        margin-top: 10px;
     }
 
     .leaf_middle{
