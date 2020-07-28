@@ -131,7 +131,7 @@ export default {
     #sushi{
         font-family: "GoodDog Cool", sans-serif;
         color: 	rgb(181, 202, 136);
-        margin-top: -15px;
+        margin-top: -5px;
         margin-right: 20px;
         font-size: 30px;
 
@@ -139,7 +139,7 @@ export default {
     #parlour{
         font-family: "GoodDog Cool", sans-serif;
         color: 	rgb(92, 101, 69);
-        margin-top: -21px;
+        margin-top: -5px;
         margin-right: 20px;
         font-size: 30px;
 
@@ -149,7 +149,7 @@ export default {
         color: 	rgb(92, 101, 69);
         font-size: 19px;
         letter-spacing: 1.6px;
-        margin-top: 22px;
+        margin-top: 30px;
         margin-right: 14px;
         font-weight: 100;
     }
