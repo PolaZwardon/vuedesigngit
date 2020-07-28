@@ -164,7 +164,7 @@ export default {
         height: 25px;
         position: center;
         margin-right: 19px;
-        margin-top: -40px;
+        margin-top: -60px;
     }
     .leaf_right{
         width: 90px;
