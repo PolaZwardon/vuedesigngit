@@ -56,7 +56,7 @@ export default {
         border-radius: 10%;
         position: relative;
         background: url('./../assets/sushi.png') fixed top center;
-        background-size: 100%;
+        background-size: 80%;
 
     }
     .diamond:hover{
