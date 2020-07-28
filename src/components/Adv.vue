@@ -54,7 +54,7 @@ export default {
         height: 207px;
         margin: 7px 7px;
         border-radius: 10%;
-        position: relative;
+        position: center;
         background: url('./../assets/sushi.png') fixed center top;
         background-size: 800px;
     }
