@@ -7,14 +7,14 @@
                 <div id="first" class="diamond"></div>
                 <div id="second" class="diamond"></div>
                 <div id="text" class="diamond">
+                    <img class="leaf_middle" src="./../assets/leaves.png" alt="">
                     <div class="text_container">
-                        <img class="leaf_middle" src="./../assets/leaves.png" alt="">
-                        <h2 id="sushi">sushi</h2>
-                        <h2 id="parlour">parlour</h2>
-                        <h2 id="opening">NEW OPENING</h2>
-                        <h2 id="date">23RD SEPT</h2>
-                        <h2 id="street">main street, 21, new york</h2>
-                        <h2 id="email">sushiparlour.com</h2>
+                        <div class="sushi">sushi</div>
+                        <div class="parlour">parlour</div>
+                        <div class="opening">NEW OPENING</div>
+                        <div class="date">23RD SEPT</div>
+                        <div class="street">main street, 21, new york</div>
+                        <div class="email">sushiparlour.com</div>
                     </div></div>
                 <div id="third" class="diamond"></div>
             </div>
@@ -129,26 +129,26 @@ export default {
         font-family: "Aftika Light";
         src: url('./../fonts/Aftika Light.otf');
     }
-    #sushi{
+    .sushi{
         font-family: "GoodDog Cool", sans-serif;
         color: 	rgb(181, 202, 136);
-        margin-top: -25px;
+        margin-top: -33px;
         margin-right: 20px;
         font-size: 30px;
         font-weight: lighter;
 
     }
-    #parlour{
+    .parlour{
         font-family: "GoodDog Cool", sans-serif;
         color: 	rgb(92, 101, 69);
-        margin-top: -27px;
+        margin-top: -20px;
         margin-right: 20px;
         font-size: 30px;
         font-weight: lighter;
 
 
     }
-    #opening{
+    .opening{
         font-family: "Aftika Light",sans-serif;
         color: 	rgb(92, 101, 69);
         font-size: 19px;
@@ -157,14 +157,14 @@ export default {
         margin-right: 14px;
         font-weight: 100;
     }
-    #date{
+    .date{
         font-family: "Aftika Bold",sans-serif;
         color: 	rgb(181, 202, 136);
         margin-top: -10px;
         font-size: 27px;
         margin-right: 20px;
     }
-    #street{
+    .street{
         font-family: "Aftika Light",sans-serif;
         color: 	rgb(92, 101, 69);
         font-size: 14.2px;
@@ -172,7 +172,7 @@ export default {
         margin-top: 10px;
         margin-right: 19px;
     }
-    #email{
+    .email{
         font-family: "GoodDog Cool", sans-serif;
         color: 	rgb(92, 101, 69);
         font-size: 25px;
@@ -186,8 +186,7 @@ export default {
         width: 25px;
         height: 25px;
         position: center;
-        margin-right: 19px;
-        margin-top: -75px;
+        margin-top: -35px;
     }
     .leaf_right{
         width: 90px;
