@@ -56,7 +56,7 @@ export default {
         border-radius: 10%;
         position: relative;
         background: url('./../assets/sushi.png') fixed top center;
-        background-size: 80%;
+        background-size: 60%;
 
     }
     .diamond:hover{
@@ -117,12 +117,16 @@ export default {
         color: 	rgb(181, 202, 136);
         margin-top: -27px;
         margin-right: 20px;
+        font-size: 30px;
+
     }
     #parlour{
         font-family: "GoodDog Cool", sans-serif;
         color: 	rgb(92, 101, 69);
         margin-top: -21px;
         margin-right: 20px;
+        font-size: 30px;
+
     }
     #opening{
         font-family: "Aftika Light",sans-serif;
