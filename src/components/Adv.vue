@@ -113,6 +113,7 @@ export default {
     .text_container{
         width: 110%;
         height: 100%;
+        margin-bottom: 10px;
 
     }
 
@@ -134,6 +135,7 @@ export default {
         margin-top: -25px;
         margin-right: 20px;
         font-size: 30px;
+        font-weight: lighter;
 
     }
     #parlour{
@@ -142,6 +144,8 @@ export default {
         margin-top: -27px;
         margin-right: 20px;
         font-size: 30px;
+        font-weight: lighter;
+
 
     }
     #opening{
@@ -174,6 +178,8 @@ export default {
         font-size: 25px;
         margin-right: 19px;
         margin-top: 10px;
+        font-weight: lighter;
+
     }
 
     .leaf_middle{
