@@ -49,7 +49,7 @@ export default {
 
 
     }
-    @media only screen and (max-height: 500px) {
+/*    @media only screen and (max-height: 500px) {
             #first.diamond{
                 background: url('https://image.freepik.com/free-photo/sushi-dish-asian-restaurant_23-2148195611.jpg') left;
             }
@@ -60,7 +60,7 @@ export default {
                 background: url('https://image.freepik.com/free-photo/sushi-dish-asian-restaurant_23-2148195611.jpg') center right ;
 
             }
-    }
+    }*/
     .diamond {
         flex: 0 1 207px;
         width: 207px;
