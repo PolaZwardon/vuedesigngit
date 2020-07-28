@@ -132,7 +132,7 @@ export default {
     .sushi{
         font-family: "GoodDog Cool", sans-serif;
         color: 	rgb(181, 202, 136);
-        margin-top: -46px;
+        margin-top: -6px;
         margin-right: 20px;
         font-size: 30px;
         font-weight: lighter;
@@ -178,7 +178,7 @@ export default {
         color: 	rgb(92, 101, 69);
         font-size: 25px;
         margin-right: 19px;
-        margin-top: 18px;
+        margin-top: 24px;
         font-weight: lighter;
 
     }
@@ -187,8 +187,8 @@ export default {
         width: 25px;
         height: 25px;
         position: absolute;
-        top: -40px;
-        right:15px;
+        top: -50px;
+        right:35px;
     }
     .leaf_right{
         width: 90px;
