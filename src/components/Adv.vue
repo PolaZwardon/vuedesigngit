@@ -153,14 +153,14 @@ export default {
         color: 	rgb(92, 101, 69);
         font-size: 19px;
         letter-spacing: 1.6px;
-        margin-top: 20px;
+        margin-top: 23px;
         margin-right: 14px;
         font-weight: 100;
     }
     .date{
         font-family: "Aftika Bold",sans-serif;
         color: 	rgb(181, 202, 136);
-        margin-top: -10px;
+        margin-top: 1px;
         font-size: 27px;
         margin-right: 20px;
     }
