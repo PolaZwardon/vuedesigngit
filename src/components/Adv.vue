@@ -163,6 +163,8 @@ export default {
         margin-top: -2px;
         font-size: 27px;
         margin-right: 20px;
+        letter-spacing: 1px;
+
     }
     .street{
         font-family: "Aftika Light",sans-serif;
@@ -186,7 +188,7 @@ export default {
         width: 25px;
         height: 25px;
         position: center;
-        margin-top: -19px;
+        margin-top: -40px;
     }
     .leaf_right{
         width: 90px;
