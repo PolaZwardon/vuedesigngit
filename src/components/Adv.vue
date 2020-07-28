@@ -160,7 +160,7 @@ export default {
     .date{
         font-family: "Aftika Bold",sans-serif;
         color: 	rgb(181, 202, 136);
-        margin-top: 1px;
+        margin-top: 4px;
         font-size: 27px;
         margin-right: 20px;
     }
@@ -169,7 +169,7 @@ export default {
         color: 	rgb(92, 101, 69);
         font-size: 14.2px;
         letter-spacing: 0.4px;
-        margin-top: 10px;
+        margin-top: 21px;
         margin-right: 19px;
     }
     .email{
@@ -177,7 +177,7 @@ export default {
         color: 	rgb(92, 101, 69);
         font-size: 25px;
         margin-right: 19px;
-        margin-top: 10px;
+        margin-top: 22px;
         font-weight: lighter;
 
     }
