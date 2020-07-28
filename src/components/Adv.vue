@@ -1,15 +1,14 @@
 <template>
     <div>
         <div class="main_container">
-            <img class="leaf_right" src="./../assets/leaves.png">
-            <img class="leaf_left" src="./../assets/leaves.png">
-
+            <img class="leaf_right" src="./../assets/leaves.png" alt="">
+            <img class="leaf_left" src="./../assets/leaves.png" alt="">
             <div class="images_container">
                 <div id="first" class="diamond"></div>
                 <div id="second" class="diamond"></div>
                 <div id="text" class="diamond">
                     <div class="text_container">
-                        <img class="leaf_middle" src="./../assets/leaves.png">
+                        <img class="leaf_middle" src="./../assets/leaves.png" alt="">
                         <h2 id="sushi">sushi</h2>
                         <h2 id="parlour">parlour</h2>
                         <h2 id="opening">NEW OPENING</h2>
@@ -18,10 +17,7 @@
                         <h2 id="email">sushiparlour.com</h2>
                     </div></div>
                 <div id="third" class="diamond"></div>
-
             </div>
-
-
         </div>
     </div>
 
@@ -31,8 +27,6 @@
 export default {
   name: 'Adv'
 }
-
-
 </script>
 
 <style scoped>
@@ -52,6 +46,7 @@ export default {
         background-position: 100% 100%;
         overflow: hidden;
         text-align: center;
+
     }
     .diamond {
         flex: 0 1 207px;
@@ -59,26 +54,32 @@ export default {
         height: 207px;
         margin: 7px 7px;
         border-radius: 10%;
-        position: center;
+        position: relative;
+        background: url('./../assets/sushi.png') fixed top center;
+        background-size: 100%;
+
     }
     .diamond:hover{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-    #first.diamond{
-             background: url('https://image.freepik.com/free-photo/sushi-dish-asian-restaurant_23-2148195611.jpg') left;
-         }
+/*    #first.diamond{
+        background: url('https://image.freepik.com/free-photo/sushi-dish-asian-restaurant_23-2148195611.jpg') fixed top center;
+    }
+
     #second.diamond{
         background: url('https://image.freepik.com/free-photo/sushi-dish-asian-restaurant_23-2148195611.jpg') center;
     }
     #third.diamond{
         background: url('https://image.freepik.com/free-photo/sushi-dish-asian-restaurant_23-2148195611.jpg') right;
-    }
+
+    }*/
      #text.diamond{
          background: transparent;
          -webkit-transform: rotate(45deg);
          transform: rotate(45deg);
          text-align: center;
          width: 300px;
+
      }
      #text.diamond:hover{
          box-shadow: none;
