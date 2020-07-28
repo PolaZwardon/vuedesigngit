@@ -132,7 +132,7 @@ export default {
     .sushi{
         font-family: "GoodDog Cool", sans-serif;
         color: 	rgb(181, 202, 136);
-        margin-top: -26px;
+        margin-top: -6px;
         margin-right: 20px;
         font-size: 30px;
         font-weight: lighter;
@@ -141,7 +141,7 @@ export default {
     .parlour{
         font-family: "GoodDog Cool", sans-serif;
         color: 	rgb(92, 101, 69);
-        margin-top: -10px;
+        margin-top: 10px;
         margin-right: 20px;
         font-size: 30px;
         font-weight: lighter;
@@ -153,14 +153,14 @@ export default {
         color: 	rgb(92, 101, 69);
         font-size: 19px;
         letter-spacing: 1.6px;
-        margin-top: 23px;
+        margin-top: 43px;
         margin-right: 14px;
         font-weight: 100;
     }
     .date{
         font-family: "Aftika Bold",sans-serif;
         color: 	rgb(181, 202, 136);
-        margin-top: -2px;
+        margin-top: 18px;
         font-size: 27px;
         margin-right: 20px;
 
@@ -170,7 +170,7 @@ export default {
         color: 	rgb(92, 101, 69);
         font-size: 14.2px;
         letter-spacing: 0.4px;
-        margin-top: 21px;
+        margin-top: 41px;
         margin-right: 19px;
     }
     .email{
@@ -178,7 +178,7 @@ export default {
         color: 	rgb(92, 101, 69);
         font-size: 25px;
         margin-right: 19px;
-        margin-top: 22px;
+        margin-top: 42px;
         font-weight: lighter;
 
     }
@@ -188,6 +188,7 @@ export default {
         height: 25px;
         position: absolute;
         top: -40px;
+        left:9px;
     }
     .leaf_right{
         width: 90px;
