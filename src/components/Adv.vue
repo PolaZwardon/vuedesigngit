@@ -139,7 +139,7 @@ export default {
     #parlour{
         font-family: "GoodDog Cool", sans-serif;
         color: 	rgb(92, 101, 69);
-        margin-top: -30px;
+        margin-top: -27px;
         margin-right: 20px;
         font-size: 30px;
 
@@ -149,7 +149,7 @@ export default {
         color: 	rgb(92, 101, 69);
         font-size: 19px;
         letter-spacing: 1.6px;
-        margin-top: 30px;
+        margin-top: 40px;
         margin-right: 14px;
         font-weight: 100;
     }
@@ -181,7 +181,7 @@ export default {
         height: 25px;
         position: center;
         margin-right: 19px;
-        margin-top: -60px;
+        margin-top: -65px;
     }
     .leaf_right{
         width: 90px;
