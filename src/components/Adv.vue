@@ -50,16 +50,23 @@ export default {
 
     }
     @media only screen and (max-height: 500px) {
-            #first.diamond{
-                background: url('https://image.freepik.com/free-photo/sushi-dish-asian-restaurant_23-2148195611.jpg') left;
-            }
-            #second.diamond{
-                background: url('https://image.freepik.com/free-photo/sushi-dish-asian-restaurant_23-2148195611.jpg') center;
-            }
-            #third.diamond{
-                background: url('https://image.freepik.com/free-photo/sushi-dish-asian-restaurant_23-2148195611.jpg') center right ;
+        .main_container{
+            width: 90%;
+            height: 90%%;
 
-            }
+        }
+    }
+    @media only screen and (width: 500px) {
+        #first.diamond{
+            background: url('https://image.freepik.com/free-photo/sushi-dish-asian-restaurant_23-2148195611.jpg') left;
+        }
+        #second.diamond{
+            background: url('https://image.freepik.com/free-photo/sushi-dish-asian-restaurant_23-2148195611.jpg') center;
+        }
+        #third.diamond{
+            background: url('https://image.freepik.com/free-photo/sushi-dish-asian-restaurant_23-2148195611.jpg') center right ;
+
+        }
     }
     .diamond {
         flex: 0 1 207px;
